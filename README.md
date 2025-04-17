@@ -1,70 +1,61 @@
-# Mars Colonizer
+# Mars Colony
 
-A realistic Mars colonization simulation game with multiple resource types and complex building requirements.
+A browser-based resource management game where you establish and grow a colony on Mars. Manage resources, construct buildings, research upgrades, and achieve milestones to create a thriving Martian settlement.
+
+## Features
+
+- **Resource Management**: Collect and manage essential resources like minerals, water, energy, food, oxygen, materials, and science.
+- **Buildings**: Construct various buildings such as mineral extractors, water extractors, solar panels, and more.
+- **Upgrades**: Research technologies that improve production efficiency or reduce resource consumption.
+- **Milestones**: Complete objectives to earn rewards and track your progress.
+- **Persistent Gameplay**: Your progress is automatically saved locally.
 
 ## How to Play
 
-1. Open `index.html` in your web browser to start the game.
-2. Click on Mars to gather minerals, your basic resource.
-3. Use minerals to construct basic buildings like mineral extractors and solar panels.
-4. Balance multiple resources (minerals, water, energy, food, and science) to unlock new buildings and technologies.
-5. Purchase upgrades to boost your production capacity.
-6. Unlock milestones as you progress to expand your Mars colony.
+1. **Collect Resources**: Click on the Mars surface to manually collect minerals.
+2. **Build Structures**: Construct buildings to automate resource production.
+3. **Research Upgrades**: Use science points to research technologies that improve your colony.
+4. **Complete Milestones**: Achieve objectives to earn rewards and advance your colony.
 
-## Game Features
+## Resource Types
 
-- Multi-resource management system with 5 different resource types:
-  - Minerals: Basic construction material
-  - Water: Extracted from ice deposits 
-  - Energy: Generated from solar and nuclear sources
-  - Food: Produced in greenhouses and hydroponics
-  - Science: Research points to unlock new technologies
-- Over 10 different buildings, each with unique resource requirements and production
-- Strategic upgrades that enhance resource production
-- Milestone system to track your colonization progress
-- Realistic resource dependencies (water extractors need energy, habitats need food, etc.)
-- Automatic save system with offline progress calculation
-- Statistics tracking for your colonization efforts
-- Sound effects (can be toggled on/off)
-- Mobile-responsive design
+- **Minerals**: Basic building material extracted from Martian soil
+- **Water**: Essential for life support and hydroponics
+- **Energy**: Powers buildings and systems
+- **Food**: Sustains your colonists
+- **Oxygen**: Required for human habitation
+- **Materials**: Processed resources for advanced buildings
+- **Science**: Used for research and upgrades
 
-## Resource Management
+## Building Types
 
-The core of the game revolves around balancing various resources:
+- **Mineral Extractor**: Mines minerals from the Martian surface
+- **Water Extractor**: Extracts water from the Martian subsurface
+- **Solar Panel**: Generates electricity from sunlight
+- **Hydroponics Farm**: Grows food using water and energy
+- **Oxygen Generator**: Produces oxygen from water
+- **Materials Factory**: Converts minerals into building materials
+- **Research Lab**: Generates science points for research
 
-- **Minerals** - Your most basic resource, gathered by clicking and extractors
-- **Energy** - Required to power most buildings
-- **Water** - Extracted from ice deposits, essential for life support
-- **Food** - Necessary to support colonists and researchers
-- **Science** - Research points that unlock advanced buildings and upgrades
+## Getting Started
 
-All buildings have both costs and production. For example, a Greenhouse requires minerals, water, and energy to build, but produces food and science.
+1. Clone this repository
+2. Open `index.html` in your browser
+3. Start building your Mars colony!
 
-## Game Progression
+## Development
 
-The game follows a realistic narrative of Mars colonization:
-1. Initial resource gathering and basic infrastructure
-2. Establishing sustainable energy and water systems
-3. Developing food production and life support
-4. Building research facilities and advancing technology
-5. Creating self-sustaining habitats
-6. Beginning the terraforming process
+This game is built using vanilla JavaScript, HTML, and CSS. No frameworks or libraries are required.
 
-## Technologies Used
+## Future Features
 
-- HTML5
-- CSS3
-- JavaScript (vanilla)
-- Font Awesome icons
-- Local Storage for game saves
+- More building types
+- Research tree expansion
+- Random events
+- Colonist management
+- Mission system
+- Expanded milestone system
 
-## Running Locally
+## License
 
-Simply open the `index.html` file in any modern web browser to play the game.
-
-## Credits
-
-Sounds are needed for full gameplay experience. You can add your own sound files:
-- `sounds/click.mp3` - Played when clicking on Mars
-- `sounds/purchase.mp3` - Played when buying a building or upgrade
-- `sounds/milestone.mp3` - Played when achieving a milestone 
+MIT License - Feel free to use, modify, and distribute as you wish. 
