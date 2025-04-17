@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Colonizer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <div class="title-area">
+                <h1>Mars Colonizer</h1>
+                <div class="settings-bar">
+                    <button id="save-button" title="Save Game"><i class="fas fa-save"></i></button>
+                    <button id="reset-button" title="Reset Game"><i class="fas fa-trash"></i></button>
+                    <div class="sound-toggle">
+                        <input type="checkbox" id="sound-toggle" checked>
+                        <label for="sound-toggle"><i class="fas fa-volume-up"></i></label>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="resources-container" class="resources-container">
+                <!-- Resources will be added here by JavaScript -->
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="left-panel">
+                <div class="clicker-area">
+                    <div id="mars" class="planet"></div>
+                    <div class="click-info">Click to gather minerals</div>
+                </div>
+                
+                <div id="stats-container" class="stats-container">
+                    <!-- Stats will be added here by JavaScript -->
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <div class="upgrades-container">
+                    <h2>Upgrades</h2>
+                    <div id="no-upgrades" style="display: block; text-align: center; padding: 10px; color: #aaa;">No upgrades available yet</div>
+                    <div id="upgrades-list">
+                        <!-- Upgrades will be added here by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="buildings-container">
+                    <h2>Buildings</h2>
+                    <div id="buildings-list">
+                        <!-- Buildings will be added here by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="milestones">
+            <h2>Colonization Progress</h2>
+            <div id="milestones-list">
+                <!-- Milestones will be added here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <div id="notification" class="notification"></div>
+
+    <div class="credits">
+        <p>Mars Colonizer: A resource management game | <a href="https://github.com/yourusername/mars-colonizer" target="_blank">GitHub</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
